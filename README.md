@@ -29,3 +29,10 @@ $ hadoop/sbin/start-dfs.sh
 ```
 $ ./tools/setup-job.sh
 ```
+
+## Teardown
+
+To stop hdfs run:
+```
+$ sbin/stop-dfs.sh
+```
