@@ -25,14 +25,21 @@ $ hadoop/bin/hdfs namenode -format
 ```
 $ hadoop/sbin/start-dfs.sh
 ```
-9. Run job script by:
+9. Copy files to hdfs:
+```
+$ ./tools/copy-to-hdfs.sh
+```
+10. Run job by script:
 ```
 $ ./tools/setup-job.sh
 ```
 
 ## Teardown
-
+To remove created files run:
+```
+$ ./tools/clear-hdfs.sh
+```
 To stop hdfs run:
 ```
-$ sbin/stop-dfs.sh
+$ hadoop/sbin/stop-dfs.sh
 ```
